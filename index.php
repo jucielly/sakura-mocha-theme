@@ -6,10 +6,10 @@
         while (have_posts()) : the_post(); ?>
 
             <div class="post-container">
-                <h2><?php the_title() ?></h2>
-                <h4>Posted on <?php the_time('F jS, Y') ?></h4>
-                <a href="<?php the_permalink() ?>">Read full post</a>
-                <em><?php the_content() ?></em>
+                <h2 class="post-title"><?php the_title() ?></h2>
+                <h4 class="post-date">Posted on <?php the_time('F jS, Y') ?></h4>
+                <em class="content"><?php the_content() ?></em>
+                <a class="post-permalink" href="<?php the_permalink() ?>">Read full post</a>
             </div>
 
     <?php endwhile;
