@@ -10,7 +10,7 @@
                 <h4 class="post-date">Posted on <?php the_time('F jS, Y') ?></h4>
                 <div class="post-content-container">
                     <p class="post-content"><?php the_content() ?></p>
-                    <a class="post-permalink" href="<?php the_permalink() ?>">Read full post <i class="fa-solid fa-arrow-right-long"></i></a>
+                    <a class="post-permalink" href="<?php the_permalink() ?>">Read full post --> </i></i></a>
                 </div>
             </div>
 

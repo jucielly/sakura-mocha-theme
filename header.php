@@ -2,6 +2,7 @@
 
 <head>
     <title>Sakura Mocha theme</title>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . './style.css'; ?>">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
