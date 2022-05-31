@@ -20,6 +20,32 @@ body {
   width: 100%;
 }
 
+.theme-title{
+  flex-grow: 1;
+}
+
+.header-container ul {
+  list-style: none;
+  display: flex;
+}
+
+.header-container li a {
+  color: #6d6875;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-decoration: none;
+  padding: 20px;
+  transition: 0.3s ease-in;
+}
+
+.header-container li a:hover {
+  color: #EDEDE9;
+}
+
+.header-container li a:visited {
+  color: #6d6875;
+}
+
 .posts-container {
   display: flex;
   flex-direction: column;

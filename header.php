@@ -14,4 +14,11 @@
 
     <header class="header-container">
         <h1 class="theme-title">Sakura Mocha </h1>
+        <?php
+        wp_nav_menu(array(
+            'theme_location' => 'my-custom-menu',
+            'container_class' => 'custom-menu-class'
+        ));
+        ?>
+        <button class="default-button header-button">Purchase</button>
     </header>
