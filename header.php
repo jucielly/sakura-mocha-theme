@@ -13,7 +13,9 @@
 <body>
 
     <header class="header-container">
-        <h1 class="theme-title">Sakura Mocha </h1>
+        <div class="theme-title">
+            <h1>Sakura Mocha </h1>
+        </div>
         <?php
         wp_nav_menu(array(
             'theme_location' => 'my-custom-menu',
