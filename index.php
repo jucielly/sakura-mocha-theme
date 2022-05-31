@@ -8,8 +8,10 @@
             <div class="post-container">
                 <h2 class="post-title"><?php the_title() ?></h2>
                 <h4 class="post-date">Posted on <?php the_time('F jS, Y') ?></h4>
-                <em class="content"><?php the_content() ?></em>
-                <a class="post-permalink" href="<?php the_permalink() ?>">Read full post</a>
+                <div class="post-content-container">
+                    <p class="post-content"><?php the_content() ?></p>
+                    <a class="post-permalink" href="<?php the_permalink() ?>">Read full post <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
             </div>
 
     <?php endwhile;
