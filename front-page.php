@@ -2,7 +2,7 @@
 
 
 <div class="home-header">
-    <div class="home-header-texts">
+    <div class="home-header-texts homer-header-card">
         <h2 class="home-header-title">
             Cute, Simple, Fast
             <br>
@@ -12,8 +12,9 @@
             When in doubt, wash claws in your leg eat prawns daintily with a claw then lick paws clean wash down
         </p>
     </div>
-    <div class="home-header-img">
-        hvhasvduadag
+    <div class="home-header-img homer-header-card">
+        <img class="sakura-petal" src="<?php bloginfo('template_url'); ?>/assets/petala.png" alt="sakura-petal">
+        <!--<img class="sakura-petal" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/coffee-break.png" alt="sakura-petal">-->
     </div>
 </div>
 <div class="home-header-half"></div>

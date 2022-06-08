@@ -86,12 +86,30 @@ body {
   transform: matrix(1, 0, -7, 1, 0, 0);
 }
 
-.home-header-texts {
+.homer-header-card {
   width: 50%;
+  padding: 160px;
+}
+.home-header-texts h2 {
+  color: #6d6875;
+  font-weight: 700;
+  font-size: 3.75rem;
+}
+
+.home-header-texts p {
+  color: #ffff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  max-width: 516.62px;
 }
 
 .home-header-img {
-  width: 50%;
+}
+
+.sakura-petal {
+  height: 135px;
+  -webkit-animation: rotate-center 2s ease-out;
+  animation: rotate-center 2s ease-out;
 }
 
 .tools-title {
@@ -154,6 +172,27 @@ body {
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
