@@ -61,9 +61,33 @@ body {
   align-self: baseline;
 }
 
-.default-button:hover{
-  background-color: #EFBEBF;
+.default-button:hover {
+  background-color: #efbebf;
   cursor: pointer;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards-container {
+  display: flex;
+}
+
+.card {
+  flex-direction: column;
+  display: flex;
+  background: #f6f6f4;
+  border-radius: 32px;
+  width: 473.83px;
+  align-items: center;
+  margin: 60px;
+}
+
+.card-text{
+  text-align: center;
 }
 
 .posts-container {
