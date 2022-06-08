@@ -1,8 +1,10 @@
 <?php get_header() ?>
+<div class="home-header-container">
 
+</div>
 
 <div class="home-container">
-    <h3>Tool for your business</h3>
+    <h3 class="tools-title">Tool for your business</h3>
     <div class="cards-container">
         <div class="card">
             <span class="card-title">Build a experience</span>

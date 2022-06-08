@@ -13,6 +13,8 @@ body {
   padding: 0;
   margin: 0;
 }
+
+/*header.php*/
 .header-container {
   background-color: #e3d5ca;
   display: flex;
@@ -66,10 +68,24 @@ body {
   cursor: pointer;
 }
 
+/*front-page.php*/
+
+.home-header-container {
+  background-color: #e3d5ca;
+  height: 50%;
+  width: 100%;
+}
+.tools-title {
+  color: #6d6875;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
 .home-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
 }
 
 .cards-container {
@@ -86,10 +102,43 @@ body {
   margin: 60px;
 }
 
-.card-text{
-  text-align: center;
+.card:hover {
+  animation: bounce 0.5s linear;
+  cursor: pointer;
 }
 
+.card-title {
+  font-weight: 700;
+  color: #e5989b;
+  font-size: 2.5rem;
+  margin-top: 50px;
+}
+
+.card-text {
+  text-align: center;
+  padding: 50px;
+  color: #32292f;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+@keyframes bounce {
+  20% {
+    transform: translateY(-6px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+
+  80% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/*index.php*/
 .posts-container {
   display: flex;
   flex-direction: column;
@@ -139,6 +188,7 @@ body {
   color: #e5989b;
 }
 
+/*footer.php*/
 .footer {
   background-color: #e5989b;
   display: flex;
