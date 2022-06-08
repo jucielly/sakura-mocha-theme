@@ -70,11 +70,30 @@ body {
 
 /*front-page.php*/
 
-.home-header-container {
+.home-header {
+  display: flex;
+  align-items: center;
   background-color: #e3d5ca;
-  height: 50%;
+  height: 45%;
   width: 100%;
+  position: absolute;
+  z-index: 1;
 }
+.home-header-half {
+  background-color: #e3d5ca;
+  height: 90%;
+  width: 100%;
+  transform: matrix(1, 0, -7, 1, 0, 0);
+}
+
+.home-header-texts {
+  width: 50%;
+}
+
+.home-header-img {
+  width: 50%;
+}
+
 .tools-title {
   color: #6d6875;
   font-size: 4rem;
