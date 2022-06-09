@@ -112,12 +112,22 @@ body {
 }
 
 .home-header-img {
+  display: flex;
 }
 
 .sakura-petal {
   height: 135px;
   -webkit-animation: rotate-center 2s ease-out;
   animation: rotate-center 2s ease-out;
+}
+
+.sakura-mocha{
+  height: 277px;
+}
+
+.sakura-petal-2{
+ align-self: end;
+
 }
 
 .tools-title {
