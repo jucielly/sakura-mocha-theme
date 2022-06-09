@@ -24,6 +24,14 @@ body {
 
 .theme-title {
   flex-grow: 1;
+  display: flex;
+  margin-left: 26px;
+}
+
+.theme-title img {
+  padding-right: 19px;
+  height: 64px;
+  align-self: center;
 }
 
 .header-container ul {

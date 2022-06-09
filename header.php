@@ -15,6 +15,7 @@
 
     <header class="header-container">
         <div class="theme-title">
+        <img class="sakura-white" src="<?php bloginfo('template_url'); ?>/assets/sakura-white.png" alt="sakura-white">
             <h1>Sakura Mocha </h1>
         </div>
         <?php
