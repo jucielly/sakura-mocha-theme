@@ -21,23 +21,35 @@
 <div class="home-header-half"></div>
 
 
-
 <div class="home-container">
-    <h3 class="tools-title">Tool for your business</h3>
-    <div class="cards-container">
-        <div class="card">
-            <span class="card-title">Build a experience</span>
-            <p class="card-text">When in doubt, wash claws in your leg eat prawns daintily with a claw then lick paws clean wash down</p>
+    <section class="tools-section">
+        <h3 class="tools-title">Tool for your business</h3>
+        <div class="cards-container">
+            <div class="card">
+                <span class="card-title">Build a experience</span>
+                <p class="card-text">When in doubt, wash claws in your leg eat prawns daintily with a claw then lick paws clean wash down</p>
+            </div>
+            <div class="card">
+                <span class="card-title">Unlimited coffees</span>
+                <p class="card-text">When in doubt, wash claws in your leg eat prawns daintily with a claw then lick paws clean wash down</p>
+            </div>
+            <div class="card">
+                <span class="card-title">Collaboration</span>
+                <p class="card-text">When in doubt, wash claws in your leg eat prawns daintily with a claw then lick paws clean wash down</p>
+            </div>
         </div>
-        <div class="card">
-            <span class="card-title">Unlimited coffees</span>
-            <p class="card-text">When in doubt, wash claws in your leg eat prawns daintily with a claw then lick paws clean wash down</p>
+    </section>
+
+    <section class="why-us-section">
+        <div class="why-us-info">
+            <h3>Why we are the best</h3>
+            <p>When in doubt, wash claws in your leg eat prawns daintily with a claw then lick paws clean wash down When in doubt, wash claws in your leg eat prawns daintily with a claw then lick paws clean wash down
+                When in doubt, wash
+            </p>
         </div>
-        <div class="card">
-            <span class="card-title">Collaboration</span>
-            <p class="card-text">When in doubt, wash claws in your leg eat prawns daintily with a claw then lick paws clean wash down</p>
-        </div>
-    </div>
+        <!-- <img class="cherry-blossom" src="<?php bloginfo('template_url'); ?>/assets/japanese-cherry-blossom.jpg" alt="sakura-petal"> -->
+    </section>
+
 </div>
 
 
