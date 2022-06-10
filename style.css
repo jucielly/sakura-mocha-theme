@@ -117,17 +117,22 @@ body {
 
 .sakura-petal {
   height: 135px;
-  -webkit-animation: rotate-center 2s ease-out;
-  animation: rotate-center 2s ease-out;
+  margin-top: 100px;
+  animation: fade 6s linear infinite forwards;
+  -webkit-animation: rotate-in-center 6s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    infinite both;
+  animation: rotate-in-center 6s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite
+    both;
 }
 
-.sakura-mocha{
+.sakura-mocha {
   height: 277px;
+  margin-top: 200px;
 }
 
-.sakura-petal-2{
- align-self: end;
-
+.sakura-petal-2 {
+  align-self: end;
+  margin-top: 450px;
 }
 
 .tools-title {
@@ -193,24 +198,41 @@ body {
   }
 }
 
-@-webkit-keyframes rotate-center {
-  0% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
+@keyframes fade {
+  from {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
   }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+  to {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
   }
 }
-@keyframes rotate-center {
+
+@-webkit-keyframes rotate-in-center {
   0% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+    opacity: 0;
   }
   100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes rotate-in-center {
+  0% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
   }
 }
 
