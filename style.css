@@ -82,14 +82,14 @@ body {
   display: flex;
   align-items: center;
   background-color: #e3d5ca;
-  height: 41%;
+  height: 45%;
   width: 100%;
   position: absolute;
   z-index: 1;
 }
 .home-header-half {
   background-color: #e3d5ca;
-  height: 82%;
+  height: 90%;
   width: 100%;
   transform: matrix(1, 0, -7, 1, 0, 0);
 }
@@ -97,7 +97,6 @@ body {
 .homer-header-card {
   width: 50%;
   padding: 160px;
-  margin-bottom: 150px;
 }
 .home-header-texts h2 {
   color: #6d6875;
@@ -140,6 +139,7 @@ body {
   color: #6d6875;
   font-size: 4rem;
   font-weight: 700;
+  margin-top: unset;
 }
 
 .home-container {
@@ -242,7 +242,7 @@ body {
     top: 0px;
   }
   to {
-    top: 270px;
+    top: 250px;
   }
   0% {
     -webkit-transform: rotate(360deg);
@@ -261,7 +261,7 @@ body {
     top: 0px;
   }
   to {
-    top: 300px;
+    top: 250px;
   }
   0% {
     -webkit-transform: rotate(360deg);
