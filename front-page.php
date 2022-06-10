@@ -15,7 +15,7 @@
     <div class="home-header-img homer-header-card">
         <img class="sakura-petal" src="<?php bloginfo('template_url'); ?>/assets/petala.png" alt="sakura-petal">
         <img class="sakura-mocha" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/coffee-break.png" alt="sakura-petal">
-        <img class="sakura-petal sakura-petal-2" src="<?php bloginfo('template_url'); ?>/assets/petala.png" alt="sakura-petal">
+        <img class="sakura-petal-2" src="<?php bloginfo('template_url'); ?>/assets/petala.png" alt="sakura-petal">
     </div>
 </div>
 <div class="home-header-half"></div>
